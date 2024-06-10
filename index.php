@@ -4,17 +4,18 @@
   <title>Student Result Management System</title>
   <link rel="stylesheet" href="csss/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 
 <body>
   <header>
     <nav>
       <div class="row clearfix">
-        <ul class="main-nav" >
+        <ul class="main-nav" animate slideInDown>
           <li><a href="index.php">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">CONTACT</a></li>
-          <li><a href="#">ADMIN LOGIN</a></li>
+          <li><a href="login.php">ADMIN LOGIN</a></li>
         </ul>
       </div>
     </nav>
