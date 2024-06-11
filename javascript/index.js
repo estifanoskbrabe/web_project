@@ -1,4 +1,4 @@
 function validateForm() {
-  console.log('Hello World!');
+  document.write('Hello World!');
 }
 validateForm();
