@@ -14,7 +14,7 @@
         <ul class="main-nav" animate slideInDown>
           <li><a href="index.php">HOME</a></li>
           <li><a href="aboutus.php">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="contactus.php">CONTACT</a></li>
           <li><a href="login.php">ADMIN LOGIN</a></li>
         </ul>
       </div>
