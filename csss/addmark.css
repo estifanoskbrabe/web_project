@@ -20,7 +20,6 @@ header {
 
 .clearfix::after {
   content: " ";
-  visibility: ;
   display: block;
   height: 9px;
   clear: both;
