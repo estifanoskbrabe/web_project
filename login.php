@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Login here</title>
 
@@ -43,3 +42,30 @@
 </body>
 
 </html>
+<?php
+if(isset($_POST['submit']))
+{
+    include('dbcon.php');
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+    $qry="SELECT * FROM admin WHERE username='$username' AND password='$password'";
+    $run=mysqli_query($con,$qry);
+    $row=mysqli_num_rows($run);
+    if($row<1)
+    {
+        ?>
+        <script>
+        alert('Username or Password Not Match');
+        window.open('login.php','_self');
+        </script>
+       <?php
+    }
+    else
+    {
+        $data=mysqli_fetch_assoc($run);
+        $id=$data['id'];
+        $_SESSION['uid']=$id;
+        header('location:admin/admindash.php');
+    }
+}
+?>
