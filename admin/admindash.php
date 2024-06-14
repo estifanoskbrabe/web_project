@@ -7,14 +7,14 @@ session_start();
         }
         else
         {
-          header('location: ../login.php');
+          header('location: login.php');
         }
         
 ?>
 <html>
 <head>
     <title>Admin Dashboard</title>
-<link rel="stylesheet" href="../csss/admindash.css" type="text/css">
+<link rel="stylesheet" href="csss/admindash.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -25,7 +25,7 @@ session_start();
         <div class="row clearfix">
           
             <ul class="main-nav" animate slideInDown>
-                <li><a href="../index.php">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="aboutus.php">ABOUT</a></li>
                 <li><a href="contactus.php">CONTACT</a></li>
                 <li class="logout"><a href="logout.php">LOGOUT</a></li>
