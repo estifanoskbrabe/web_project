@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Contact</title>
-<link rel="stylesheet" href="../csss/contactus.css" type="text/css">
+<link rel="stylesheet" href="csss/contactus.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -59,7 +59,7 @@
 <?php
 if(isset($_POST['submit']))
 {
-    include('../dbcon.php');
+    include('dbcon.php');
     $username=$_POST['name'];
     $email=$_POST['email'];
     $contact=$_POST['cont'];

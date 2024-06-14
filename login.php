@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION['uid']))
+{
+	header('location:admin/admindash.php');	
+}
+?>
 <html>
 <head>
     <title>Login here</title>
