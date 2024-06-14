@@ -56,3 +56,24 @@
     </header>
 </body>
 </html>
+<?php
+if(isset($_POST['submit']))
+{
+    include('../dbcon.php');
+    $username=$_POST['name'];
+    $email=$_POST['email'];
+    $contact=$_POST['cont'];
+    $massage=$_POST['massage'];
+    $sql="INSERT INTO user_massage(u_name, u_email, u_contact, u_massage) VALUES ('$username','$email','$contact','$massage')";
+    $run=mysqli_query($con,$sql);
+    if($run)
+    {
+        ?>
+      <script>
+      alert('Your Message is sent to Admin');
+
+     </script>
+   <?php
+    }
+}
+?>
