@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/contact.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/working.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,6 +28,29 @@ header {
 .row {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+h1 {
+  margin-left: 430px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-shadow: #000 0 0 3px, #000 0 0 3px, #000 0 0 5px;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+.main-content-header {
+  border-top: 2px solid white;
+}
+
+.main-content-header a {
+  text-decoration: none;
+  color: black;
+  text-shadow: #f06 0 0 1px, #f06 0 0 1px, #f06 0 0 1px;
 }
 
 .main-nav {
@@ -53,49 +76,4 @@ header {
 .main-nav li a:hover {
   color: yellow;
   font-weight: 1000;
-}
-
-.table {
-  margin-left: 130px;
-}
-
-.search {
-  margin-left: 60px;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  color: black;
-  text-shadow: #fff 0 0 1px, #fff 0 0 1px, #fff 0 0 1px;
-}
-
-.tblheading {
-  color: black;
-  font-size: 1.3rem;
-  text-align: left;
-  padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
-}
-
-.tbldata {
-  width: 500px;
-  height: 30px;
-}
-
-.tbldata1 {
-  width: 500px;
-  height: 70px;
-}
-
-.submit {
-  width: 80px;
-  height: 30px;
-}
-
-.submit:hover {
-  background-color: pink;
-  color: black;
-  font-size: 1rem;
-}
-
-.main-content-header {
-  border-top: 2px solid #fff;
 }
