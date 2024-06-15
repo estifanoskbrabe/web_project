@@ -4,7 +4,7 @@ session_start();
 if (isset($_SESSION['uid'])) {
   echo "";
 } else {
-  header('location: login.php');
+  header('location: ../login.php');
 }
 
 ?>
@@ -12,7 +12,7 @@ if (isset($_SESSION['uid'])) {
 
 <head>
   <title>Add Marks</title>
-  <link rel="stylesheet" href="csss/addmark.css" type="text/css">
+  <link rel="stylesheet" href="../csss/addmark.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -24,9 +24,9 @@ if (isset($_SESSION['uid'])) {
       <div class="row clearfix">
         <ul class="main-nav" animate slideInDown>
           <li class="logout"><a href="admindash.php">Dashboard</a></li>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="aboutus.php">About</a></li>
-          <li><a href="contactus.php">Contact</a></li>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="../aboutus.php">About</a></li>
+          <li><a href="../contactus.php">Contact</a></li>
         </ul>
       </div>
     </nav>
