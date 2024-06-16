@@ -24,9 +24,9 @@ if (isset($_SESSION['uid'])) {
       <div class="row clearfix">
         <ul class="main-nav" animate slideInDown>
           <li class="logout"><a href="admindash.php">Dashboard</a></li>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="aboutus.php">About</a></li>
-          <li><a href="contactus.php">Contact</a></li>
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="../aboutus.php">About</a></li>
+          <li><a href="../contactus.php">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -57,7 +57,7 @@ if (isset($_SESSION['uid'])) {
             <td><input type='text' name='father' placeholder="Father's Name" required class="box" /></td>
             <td><input type='text' name='mother' placeholder="Mother's Name" required class="box" /></td>
             <td><input type='text' name='mobile' placeholder='Mobile No' required class="box" /></td>
-            <td><input type='text' name='village' placeholder='City' required class="box" /></td>
+            <td><input type='text' name='city' placeholder='City' required class="box" /></td>
           </tr>
 
         </table>
