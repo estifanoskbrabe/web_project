@@ -87,7 +87,7 @@ session_start();
             <th class="student_class2"> <?php  echo $data['id'].'<br>'; ?></th>
             <th class="student_class2"> <?php  echo $data['u_name'].'<br>'; ?></th> 
             <th class="student_class2"> <?php  echo $data['u_father'].'<br>'; ?></th> 
-            <th class="student_class2"> <?php  echo $data['u_village'].'<br>'; ?></th> 
+            <th class="student_class2"> <?php  echo $data['u_city'].'<br>'; ?></th> 
             <th class="student_class2"> <?php  echo $data['u_class'].'<br>'; ?></th> 
             <th class="student_class2"> <?php  echo $data['u_rollno'].'<br>'; ?></th> 
             <th class="student_class2"><a href="updatemark_form.php?sid=<?php echo $data['u_rollno']; ?>">Edit</a></th> 

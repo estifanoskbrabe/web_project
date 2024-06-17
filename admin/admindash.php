@@ -38,7 +38,7 @@ session_start();
        <h3><a href="updatemark.php">-> Update Student Marks </a></h3>
        <h3><a href="">-> Delete the Marks of Student </a></h3>
        <h3><a href="allstudentdata.php">-> Data of all Students </a></h3>
-       <h3><a href="#">-> Messages by Student</a></h3>
+       <h3><a href="usermessage.php">-> Messages by Student</a></h3>
       </div>
     </header>
     
