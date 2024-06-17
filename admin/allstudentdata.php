@@ -43,7 +43,7 @@ session_start();
            <th class="contact_h1">Roll No</th>
            <th class="contact_h1">Father Name</th>
            <th class="massage_h1">Mother Name </th>
-           <th class="contact_h1">Village</th>
+           <th class="contact_h1">City</th>
            <th class="name_h1">Mobile No</th>
          </tr>
         
@@ -63,7 +63,7 @@ include('../dbcon.php');
             <th class="contact_h"> <?php  echo $row['u_rollno'].'<br>'; ?></th> 
             <th class="contact_h"> <?php  echo $row['u_father'].'<br>'; ?></th> 
             <th class="contact_h"> <?php  echo $row['u_mother'].'<br>'; ?></th>
-            <th class="contact_h"> <?php  echo $row['u_village'].'<br>'; ?></th> 
+            <th class="contact_h"> <?php  echo $row['u_city'].'<br>'; ?></th> 
             <th class="massage_h"><?php  echo $row['u_mobile'].'<br>'; ?></th> 
         </tr>     
         <?php    

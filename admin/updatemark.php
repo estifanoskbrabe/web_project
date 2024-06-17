@@ -7,7 +7,7 @@ session_start();
         }
         else
         {
-          header('location: login.php');
+          header('location: ../login.php');
         }
         
 ?>
@@ -62,7 +62,7 @@ session_start();
          <?php
             if(isset($_POST['submit']))
             {
-                include('dbcon.php');
+                include('../dbcon.php');
                 $class=$_POST['class'];
                 $rollno=$_POST['rollno'];
                 

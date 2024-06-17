@@ -57,7 +57,7 @@ if (isset($_SESSION['uid'])) {
             <td><input type='text' name='father' placeholder="Father's Name" required class="box" /></td>
             <td><input type='text' name='mother' placeholder="Mother's Name" required class="box" /></td>
             <td><input type='text' name='mobile' placeholder='Mobile No' required class="box" /></td>
-            <td><input type='text' name='village' placeholder='City' required class="box" /></td>
+            <td><input type='text' name='city' placeholder='City' required class="box" /></td>
           </tr>
 
         </table>

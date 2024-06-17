@@ -18,19 +18,23 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `student_data`
+-- Table structure for table `user_mark`
 --
 
-CREATE TABLE `student_data` (
+CREATE TABLE `user_mark` (
   `id` int(11) NOT NULL,
-  `u_name` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_class` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_rollno` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_father` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_mother` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_mobile` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_city` text COLLATE utf8_unicode_ci NOT NULL,
-  `u_image` text COLLATE utf8_unicode_ci NOT NULL
+  `u_rollno` int(2) NOT NULL,
+  `u_class` int(2) NOT NULL,
+  `u_amharic1` int(2) NOT NULL,
+  `u_english1` int(2) NOT NULL,
+  `u_math1` int(2) NOT NULL,
+  `u_physics1` int(2) NOT NULL,
+  `u_chemestry1` int(2) NOT NULL,
+  `u_amharic2` int(2) NOT NULL,
+  `u_english2` int(2) NOT NULL,
+  `u_math2` int(2) NOT NULL,
+  `u_physics2` int(2) NOT NULL,
+  `u_chemestry` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -38,9 +42,9 @@ CREATE TABLE `student_data` (
 --
 
 --
--- Indexes for table `student_data`
+-- Indexes for table `user_mark`
 --
-ALTER TABLE `student_data`
+ALTER TABLE `user_mark`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -48,9 +52,9 @@ ALTER TABLE `student_data`
 --
 
 --
--- AUTO_INCREMENT for table `student_data`
+-- AUTO_INCREMENT for table `user_mark`
 --
-ALTER TABLE `student_data`
+ALTER TABLE `user_mark`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 

@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../image/images.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../image/yellow.jpg);
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
