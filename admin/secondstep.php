@@ -35,6 +35,7 @@ session_start();
           
           <form method="post" action="thirdstep.php">
               <h2>Step 2/2 : Add Exam mark</h2>
+
          
           <td><input type="hidden" name="class" class="class" value="<?php  echo $_POST['class']; ?>" required/></td>
           
@@ -48,6 +49,7 @@ session_start();
                 <th>Amharic</th>   <th> English </th> <th>Math</th>
              </tr>
              <tr>
+
                  <td><input type='text' name='amharic' placeholder='amharic' required/></td>
                  <td><input type='text' name='english1' placeholder='English' required/></td>
                  <td><input type='text' name='math1' placeholder='Math' required/></td>
@@ -71,6 +73,7 @@ session_start();
                 <th>Amharic</th>   <th> English </th> <th>Math</th>
              </tr>
              <tr>
+
                  <td><input type='text' name='amharic2' placeholder='amharic' required/></td>
                  <td><input type='text' name='english2' placeholder='English' required/></td>
                  <td><input type='text' name='math2' placeholder='Math' required/></td>
@@ -114,7 +117,6 @@ if(isset($_POST['submit1']))
     $imagename=$_FILES['img']['name'];
     $tempname=$_FILES['img']['tmp_name'];
     move_uploaded_file($tempname,"../dataimg/$imagename");
-    
     $sql="INSERT INTO `Student_data`(`u_name`, `u_class`, `u_rollno`, `u_father`, `u_mother`, `u_mobile`, `u_city`, `u_image`) VALUES ('$username','$class','$rollno','$father','$mother','$mobile','$class','$imagename')";
     $run=mysqli_query($con,$sql);
     if($run)
