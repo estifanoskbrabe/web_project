@@ -25,7 +25,7 @@ CREATE TABLE `user_mark` (
   `id` int(11) NOT NULL,
   `u_rollno` int(2) NOT NULL,
   `u_class` int(2) NOT NULL,
-  `u_amharic1` int(2) NOT NULL,
+  `u_amharic` int(2) NOT NULL,
   `u_english1` int(2) NOT NULL,
   `u_math1` int(2) NOT NULL,
   `u_physics1` int(2) NOT NULL,
