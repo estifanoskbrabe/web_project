@@ -157,7 +157,7 @@ h4 {
   animation: colorchange2 2s infinite;
   margin-left: 35px;
 }
-
+/* 
 @keyframes colorchange2 {
   0% {
     color: #fff;
@@ -173,15 +173,16 @@ h4 {
 
   100% {
     color: orange;
-  }
 }
+  } */
+
 
 .colorchange3 {
   animation: colorchange3 2s infinite;
   margin-left: 35px;
 }
 
-@keyframes colorchange3 {
+/* @keyframes colorchange3 {
   0% {
     color: #fff;
   }
@@ -197,7 +198,7 @@ h4 {
   100% {
     color: #bf55ec;
   }
-}
+} */
 
 .class {
   margin-left: 9px;

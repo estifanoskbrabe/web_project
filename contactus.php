@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="csss/contactus.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <script defer src="../result/javascript/contactus.js"></script>
+  <script defer src="../web_project/javascript/contactus.js"></script>
 </head>
 
 <body>

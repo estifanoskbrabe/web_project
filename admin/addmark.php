@@ -15,7 +15,7 @@ if (isset($_SESSION['uid'])) {
   <link rel="stylesheet" href="../csss/addmark.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
+  <script defer src="../web_project/javascript/studentdata.js"></script>
 </head>
 
 <body>
@@ -32,7 +32,7 @@ if (isset($_SESSION['uid'])) {
     </nav>
     <div class="main-content-header">
       <h2>Step 1/2 : Enter the Details of Student</h2>
-      <form method="post" enctype="multipart/form-data" action="secondstep.php">
+      <form id="form" method="post" enctype="multipart/form-data" action="secondstep.php" >
         <table class="table1">
           <tr>
             <th>Name </th>
@@ -41,7 +41,7 @@ if (isset($_SESSION['uid'])) {
           </tr>
           <tr>
             <td><input type='text' name='name' placeholder='Enter Full Name' required class="box" /></td>
-            <td><input type='text' name='class' placeholder='Class' required class="box" /></td>
+            <td><input  type='text' name='class' placeholder='Class' required class="box" /></td>
             <td><input type='text' name='rollno' placeholder='Rollno' required class="box" /></td>
 
           </tr>
