@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="csss/style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script defer src="../result/javascript/index.js"></script>
 </head>
 
 <body>
@@ -20,18 +21,19 @@
       </div>
     </nav>
     <div class="main-content-header">
-      <form method="post" action="">
+      <div id="error"></div>
+      <form id="form" method="post" action="result.php" onsubmit="return validateForm()">
         <table class="table">
           <br>
           <h2 class="search">GET YOUR RESULT HERE!</h2>
           <br><br>
           <tr>
             <th class="name1">Rollno</th>
-            <td class="name2"><input type="text" name="rollno" required class="box1" /></td>
+            <td class="name2"><input id="rollno" type="text" name="rollno" required class="box1" /></td>
           </tr>
           <tr>
-            <th class="standered1">Standard</th>
-            <td class="standered2"><input type="text" name="std" required class="box2" /></td>
+            <th class="standered1">class</th>
+            <td class="standered2"><input id="std" type="text" name="std" required class="box2" /></td>
           </tr>
           <tr>
             <td align="center" colspan="2"><input type="submit" name="submit" value="SUBMIT" class="submit" /></td>

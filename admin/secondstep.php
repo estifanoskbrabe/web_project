@@ -50,7 +50,7 @@ session_start();
              </tr>
              <tr>
 
-                 <td><input type='text' name='amharic' placeholder='amharic' required/></td>
+                 <td><input type='text' name='amharic1' placeholder='amharic1' required/></td>
                  <td><input type='text' name='english1' placeholder='English' required/></td>
                  <td><input type='text' name='math1' placeholder='Math' required/></td>
              </tr>
