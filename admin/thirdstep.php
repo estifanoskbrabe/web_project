@@ -46,7 +46,7 @@ if(isset($_POST['submit']))
 include('../dbcon.php');
     $class=$_POST['class'];
     $rollno=$_POST['rollno'];
-    $amharic1=$_POST['amharic'];
+    $amharic1=$_POST['amharic1'];
     $english1=$_POST['english1'];
     $math1=$_POST['math1'];
     $physics1=$_POST['physics1'];
@@ -57,7 +57,7 @@ include('../dbcon.php');
     $math2=$_POST['math2'];
     $physics2=$_POST['physics2'];
     $chemestry2=$_POST['chemestry2'];
-    $sql="INSERT INTO `user_mark`(`u_rollno`,`u_class`,`u_amharic`, `u_english1`, `u_math1`, `u_physics1`, `u_chemestry1`, `u_hindi2`, `u_english2`, `u_math2`, `u_physics2`, `u_chemestry`) VALUES ('$rollno','$class','$amharic1','$english1','$math1','$physics1','$chemestry1','$amharic2','$english2','$math2','$physics2','$chemestry2')";
+    $sql="INSERT INTO `user_mark`(`u_rollno`,`u_class`,`u_amharic1`, `u_english1`, `u_math1`, `u_physics1`, `u_chemestry1`, `u_amharic2`, `u_english2`, `u_math2`, `u_physics2`, `u_chemestry2`) VALUES ('$rollno','$class','$amharic1','$english1','$math1','$physics1','$chemestry1','$amharic2','$english2','$math2','$physics2','$chemestry2')";
     
     $run=mysqli_query($con,$sql);
     if($run)
